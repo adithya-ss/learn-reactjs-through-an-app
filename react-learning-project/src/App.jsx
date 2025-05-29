@@ -5,7 +5,16 @@ import './App.css'
 
 const Card = ({ title }) => {
     return (
-        <div className="card">
+        <div style={
+            {
+                border: '1px solid #4b5362',
+                padding: '20px',
+                margin: '10px',
+                backgroundColor: '#31363f',
+                borderRadius: '10px',
+                minHeight : '100px',
+        }
+        }>
             <h2>{title}</h2>
         </div>
     )
@@ -13,8 +22,7 @@ const Card = ({ title }) => {
 
 const App = () => {
     return (
-        <div className="App">
-            <h2>Functional Arrow Component</h2>
+        <div className="card-container">
             <Card title="Seven" />
             <Card title="Prisoners" />
             <Card title="Bird Box" />
