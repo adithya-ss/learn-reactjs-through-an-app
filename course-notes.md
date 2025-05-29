@@ -34,3 +34,9 @@ When something changes (or) gets updated, ReactJS creates a new Virtual DOM elem
 ---------------------------------------------------------------------------
 
 * Properties (props) in react are used to transfer/pass data between components.
+
+---------------------------------------------------------------------------
+
+### HTML and CSS
+* Styles for class names are defined in the .css file using `.<class-name>` and id are defined in the .css file using `#<id>`
+* Inline (Internal) styling takes higher precedence over the styling defined in the .css file (External)
