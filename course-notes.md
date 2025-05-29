@@ -34,6 +34,7 @@ When something changes (or) gets updated, ReactJS creates a new Virtual DOM elem
 ---------------------------------------------------------------------------
 
 * Properties (props) in react are used to transfer/pass data between components.
+* State in react can hold information about react components that can change over time. However, the state is not persistant across browser reloads.
 
 ---------------------------------------------------------------------------
 
