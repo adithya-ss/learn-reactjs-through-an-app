@@ -40,6 +40,7 @@ When something changes (or) gets updated, ReactJS creates a new Virtual DOM elem
 * Properties should never be over-written (or) changed in the child component. Doing this breaks 2 important rules of React:
   1. We should never mutate props (Properties)
   2. We should never mutate states
+* We can also destructure more properties, within a property itself. This is done by using the syntax `{property: {comma_seperate_more_properties}}`
 
 ---------------------------------------------------------------------------
 
