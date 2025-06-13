@@ -47,3 +47,9 @@ When something changes (or) gets updated, ReactJS creates a new Virtual DOM elem
 ### HTML and CSS
 * Styles for class names are defined in the .css file using `.<class-name>` and id are defined in the .css file using `#<id>`
 * Inline (Internal) styling takes higher precedence over the styling defined in the .css file (External)
+
+---------------------------------------------------------------------------
+
+Debouncing is way of having to make lesser API calls. API call ideally should not be sent, in our case, for each character being typed in the search bar.
+Using debouncing, a limit/timer is enabled. So, instead of a request being sent for each character, the API request is sent for a set of characters. 
+This is done by delaying the sending of the request, until the user has stopped typing for a pre-defined amount of time.
